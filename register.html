@@ -131,7 +131,7 @@
   <div class="container">
     <h2>Register Now</h2>
     <div class="note">
-      Please use your <strong>educational institution email</strong> for verification and access to student-exclusive features.
+      Please use your <strong>educational institution email and password</strong> for verification and access to student-exclusive features.
     </div>
     <form>
       <div class="form-group">
@@ -143,7 +143,12 @@
         <label for="email">Educational Email</label>
         <input type="email" id="email" required />
       </div>
-
+      
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" required />
+      </div>
+      
       <div class="form-group">
         <label for="organization">University / Institution</label>
         <input type="text" id="organization" required />
@@ -161,15 +166,9 @@
           <option value="us">United States</option>
           <option value="uk">United Kingdom</option>
           <option value="ca">Canada</option>
-          <option value="in">India</option>
           <option value="de">Germany</option>
           <!-- Add more as needed -->
         </select>
-      </div>
-
-      <div class="form-group">
-        <label for="password">Create a Password</label>
-        <input type="password" id="password" required />
       </div>
 
       <button type="submit">Submit Registration</button>
