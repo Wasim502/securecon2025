@@ -1,62 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SecureCon 2025</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SecureCon 2025 • Register</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      background: #1a1f26;
+      color: #e0e0e0;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9fafc;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      justify-content: center;
-      align-items: center;
+      padding: 0;
+    }
+    .hero {
+      background: linear-gradient(135deg, #0f2027, #2c5364);
+      padding: 60px 20px;
       text-align: center;
     }
-
-    h1 {
+    .hero h1 {
+      color: #00ffe1;
       font-size: 3rem;
-      margin-bottom: 0.5rem;
-      color: #2c3e50;
+      margin: 0 0 20px;
+      letter-spacing: 2px;
     }
-
-    p {
+    .hero p {
       font-size: 1.2rem;
-      margin-bottom: 2rem;
+      margin: 0 0 30px;
     }
-
-    a.button {
-      display: inline-block;
-      background: #3498db;
+    .hero .btn {
+      background: #00ffe1;
+      border: none;
+      color: #1a1f26;
+      padding: 14px 28px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section h2 {
+      margin-bottom: 16px;
       color: #fff;
-      padding: 0.75rem 1.5rem;
-      text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.3s;
     }
-
-    a.button:hover {
-      background: #2980b9;
+    .section p {
+      line-height: 1.6;
     }
-
+    .speakers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 24px;
+    }
+    .speaker {
+      background: #2a2f35;
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+    .speaker h3 {
+      margin: 0 0 8px;
+      font-size: 1.1rem;
+      color: #00ffe1;
+    }
     .footer {
-      margin-top: 3rem;
+      text-align: center;
+      padding: 20px;
       font-size: 0.9rem;
-      color: #777;
+      color: #888;
+    }
+    .footer a {
+      color: #00ffe1;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to SecureCon 2025</h1>
-  <p>Your GitHub Pages-powered website is live!</p>
-  <a class="button" href="mailto:admin@securecon2025.tech">Contact Us</a>
+
+  <div class="hero">
+    <h1>SecureCon 2025</h1>
+    <p>October 22, 2025 • Virtual Summit</p>
+  </div>
+
+  <div class="section">
+    <h2>What to Expect</h2>
+    <p>Join SecureCon 2025—the global virtual summit where security experts and innovators unite. Explore cutting-edge strategies, connect with peers, and dive into real-world security breakthroughs—all from the safety of your home.</p>
+  </div>
+
+  <div class="section">
+    <h2>Featured Speakers</h2>
+    <div class="speakers">
+      <div class="speaker">
+        <h3>Syed Naqvi</h3>
+        <p>Security Aficianado</p>
+      </div>
+      <div class="speaker">
+        <h3>Dominick Miller</h3>
+        <p>IAM Maestro</p>
+      </div>
+      <div class="speaker">
+        <h3>Kaitlyn Palacios</h3>
+        <p>Data Guru</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Agenda Highlights</h2>
+    <p>Engage with keynote talks, tactical workshops, and panel discussions exploring modern security architecture, AI-driven threats, and proactive defense strategies tailored for today’s digital landscape.</p>
+  </div>
+
+  <div class="section">
+    <h2>SecureCon Hackathon</h2>
+    <p>Take part in our hackathon challenge—collaborate, compete, and innovate in a safe, virtual environment. Build secure solutions and win exclusive recognition.</p>
+  </div>
 
   <div class="footer">
-    &copy; 2025 SecureCon. All rights reserved.
+    © 2025 SecureCon Summit • <a href="#">Privacy & Terms</a>
   </div>
+
 </body>
 </html>
